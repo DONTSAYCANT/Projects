@@ -1,0 +1,53 @@
+Lamp installation on ec2 aws:
+
+
+Task 1: Describe basic aspects of AWS Elastic Compute Cloud, EC2 create a virtual machine instance in AWS EC2
+Task 2: Connect to an AWS EC2 instance and install an Apache web server
+Task 3: Connect to an AWS EC2 instance and install MySQL server database
+Task 4: Connect to an AWS EC2 instance and install PHP server, test and create PHP information page
+Task 5: Connect to an AWS EC2 instance and download and configure WordPress files and perform WordPress installation and Configuration
+Task 6: Clean up the project environment and avoid future costs
+
+
+aws ec2 ubuntu 20.04 LTS  
+
+
+    1  sudo apt-get update
+    2  sudo apt-get install ec2-instance-connect
+    3  sudo apt-get install apache2
+    4  history
+    5  nc -v 3.15.163.239 80
+    6  history
+    7  which mysql
+    8  sudo mysql -u root
+    9  history
+   10  sudo apt-get install php php-mysqli
+   11  php -v
+   12  cd /var/www/html/
+   13  sudo vim info.php
+   14  cd
+   15  sudo wget https://wordpress.com/latest.tar.gz
+   16  cd /home/
+   17  sudo wget https://wordpress.com/latest.tar.gz
+   18  sudo wget https://wordpress.org/latest.tar.gz
+   19  sudo tar xvf latest.tar.gz 
+   20  cd wordpress/
+   21  sudo cp -R . /var/www/html/
+   22  sudo ls /var/www/html
+   23  sudo rm /var/www/html/index.html 
+   24  sudo chown -R www-data:www-data /var/www/html/
+   25  history
+ubuntu@ip-172-31-30-160:/home/wordpress$ 
+
+
+    1  sudo apt-get update
+    2  sudo apt-get install ec2-instance-connect
+    3  sudo apt-get install apache2
+    4  history
+    5  nc -v 3.15.163.239 80
+    6  which apach2
+    7  which apache2
+    8  history
+    9  sudo apt-get install mysql-server
+   10  history
+
