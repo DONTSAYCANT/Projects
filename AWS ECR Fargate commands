@@ -1,0 +1,7 @@
+Initial steps:
+Create an IAM user with AmazonElasticcomtainer registry policy attahcment  (AmazonEC2ContainerRegistryFullAccess)
+
+awsconfigure ==> configure the created user with access keys, secret access keys with specific region
+
+
+
