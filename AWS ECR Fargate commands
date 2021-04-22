@@ -3,5 +3,7 @@ Create an IAM user with AmazonElasticcomtainer registry policy attahcment  (Amaz
 
 awsconfigure ==> configure the created user with access keys, secret access keys with specific region
 
+Code: website_zipped.zip  (Current directory)
+
 
 
