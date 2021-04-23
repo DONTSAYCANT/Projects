@@ -56,3 +56,17 @@ if __name__=="__main__":
     app.run(host="0.0.0.0", debug=False)
     
 Open browser for output: http://localhost:5000
+
+
+pip3 freeze | grep pandas
+
+requirements.txt (in home folder):
+
+matplotlib==3.3.0
+seaborn==0.10.1
+pandas==1.0.5
+flask==1.1.2
+
+Complete code:  https://github.com/DONTSAYCANT/Projects/blob/main/Regplot_flask_docker_python.zip
+
+
