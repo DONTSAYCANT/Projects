@@ -5,5 +5,9 @@ awsconfigure ==> configure the created user with access keys, secret access keys
 
 Code: website_zipped.zip  (Current directory)
 
+Zipping a folder:  zip -r output.zip input_file_folder
+
+
+
 
 
